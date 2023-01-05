@@ -11,7 +11,15 @@ nav li{
     list-style: none;
     padding-left: 20px;
     padding-top: 20px;
-    margin: 10px;
+    margin: 10px; 
+}
+.bg-color{
+    background: bisque;
+    background-image: url(/pphotoss/header_bg.png)  , url(/pphotoss/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+    
+    
 }
 nav ul{
     display: flex;
@@ -44,6 +52,12 @@ nav ul{
     display: flex;
     align-items: center;
 }
+/* main */
+main{ max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+
+}
 .banner-st{
     font-weight: 600;
     font-size: 45px;
@@ -57,4 +71,39 @@ nav ul{
     font-size: 18px;
     color: black;
     margin-bottom: 30px;
+}
+/* section styles */
+.about{margin-top: 130px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.secdec{ font-size: 18px;
+    color: dimgray;
+    margin-bottom: 30px;
+
+}
+.sectitle{ margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    /* padding:50px; */
+    /* margin: 60px */
+    justify-content: space-around;
+}
+.about-info{
+    /* padding: 20px; */
+}
+.info-title{
+    /* padding: 20px; */
+    font-size: 20px;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    color: dimgrey;
 }
